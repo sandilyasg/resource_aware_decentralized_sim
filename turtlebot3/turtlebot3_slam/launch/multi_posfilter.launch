@@ -1,0 +1,33 @@
+<launch>
+  <arg name="open_rviz" default="true"/>
+  <param name="/use_sim_time" value="true"/>
+
+  <!-- Launch the gmapping node for Turtlebot 3 with custom namespace -->
+  <!-- <group ns="tb3_0"> -->
+
+    <include file="$(find multirobot_laserscan_filter)/examples/multirobot_scan_filter.launch">
+      <arg name="ns" value="tb3_0"/>
+      <arg name="name" value="laser_filter0"/>
+      <arg name="other_robot1_odom" value="/tb3_1/odom"/>
+      <arg name="other_robot2_odom" value="/tb3_2/odom"/>
+    </include>
+
+  <!-- <group ns="tb3_1"> -->
+    <include file="$(find multirobot_laserscan_filter)/examples/multirobot_scan_filter.launch">
+      <arg name="ns" value="tb3_1"/>
+      <arg name="name" value="laser_filter1"/>
+      <arg name="other_robot1_odom" value="/tb3_0/odom"/>
+      <arg name="other_robot2_odom" value="/tb3_2/odom"/>
+    </include>
+
+  <!-- <group ns="tb3_2"> -->
+    <include file="$(find multirobot_laserscan_filter)/examples/multirobot_scan_filter.launch">
+      <arg name="ns" value="tb3_2"/>
+      <arg name="name" value="laser_filter2"/>
+      <arg name="other_robot1_odom" value="/tb3_0/odom"/>
+      <arg name="other_robot2_odom" value="/tb3_1/odom"/>
+    </include>
+
+</launch>
+
+<!-- args="-d $(find turtlebot3_gazebo)/rviz/multi_turtlebot3_slam_MB.rviz"/> -->

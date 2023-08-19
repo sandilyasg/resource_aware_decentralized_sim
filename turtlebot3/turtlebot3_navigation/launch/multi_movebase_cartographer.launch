@@ -1,0 +1,20 @@
+<launch>
+  <param name="/use_sim_time" value="true"/>
+
+  <group ns="tb3_0">
+    <!-- <param name="tf_prefix" value="tb3_0" /> -->
+    <include file="$(find turtlebot3_navigation)/launch/move_base_cartographer_ns.launch">
+        <arg name="robot_namespace" value="tb3_0"/>
+
+        <param name="global_costmap/robot_base_frame" value="tb3_0/base_footprint"/>
+        <param name="local_costmap/robot_base_frame" value="tb3_0/base_footprint"/>
+        <param name="local_costmap/global_frame" value="tb3_0/odom"/>
+
+        <!-- <arg name="cmd_vel_topic" value="tb3_0/cmd_vel" />
+        <arg name="odom_topic" value="tb3_0/odom" /> -->
+        <arg name="cmd_vel_topic" value="cmd_vel" />
+        <arg name="odom_topic" value="odom" />
+        <arg name="move_forward_only" value="false"/>
+    </include> 
+  </group>
+</launch>

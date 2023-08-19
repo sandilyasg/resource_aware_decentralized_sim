@@ -1,0 +1,6 @@
+<launch>
+<node pkg="multirobot_laserscan_filter" type="scan_to_scan_filter_chain" output="screen" name="laser_filter">
+      <remap from="scan" to="base_scan" />
+      <rosparam command="load" file="$(find multirobot_laserscan_filter)/examples/polygon_filter.yaml" />
+</node>
+</launch>

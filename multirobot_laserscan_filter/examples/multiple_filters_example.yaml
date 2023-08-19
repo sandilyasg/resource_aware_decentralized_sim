@@ -1,0 +1,35 @@
+scan_filter_chain:
+- type: multirobot_laserscan_filter/LaserArrayFilter
+  name: laser_median_5
+  params: 
+    range_filter_chain:
+      - name: median_5
+        type: multirobot_laserscan_filter/MultiChannelMedianFilterFloat 
+        params:
+          number_of_observations: 5
+          unused: 10
+    intensity_filter_chain:
+      - name: median_5
+        type: multirobot_laserscan_filter/MultiChannelMedianFilterFloat 
+        params:
+          number_of_observations: 5
+          unused: 10
+- name: intensity
+  type: multirobot_laserscan_filter/LaserScanIntensityFilter
+  params:
+    lower_threshold: 8000
+    upper_threshold: 100000
+    disp_histogram: 0
+- name: shadows
+  type: multirobot_laserscan_filter/ScanShadowsFilter
+  params:
+    min_angle: 10
+    max_angle: 170
+    neighbors: 20
+    window: 0
+- name: dark_shadows
+  type: multirobot_laserscan_filter/LaserScanIntensityFilter
+  params: 
+    lower_threshold: 100
+    upper_threshold: 10000
+    disp_histogram: 0

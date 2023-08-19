@@ -1,0 +1,8 @@
+<!-- ROS launch file for launching 3 local communication nodes for turtlebot3s simultaneously
+Written by: Sandilya Sai Garimella March/19/2023 
+Affiliation: University of Michigan Intelligent Robotics and Autonomy Lab (iRaL) -->
+<launch>
+  <node name="tb3_0_local_comm_node" pkg="resource_aware_coordination" type="tb3_0_local_comm_node" output="screen"/>
+  <node name="tb3_1_local_comm_node" pkg="resource_aware_coordination" type="tb3_1_local_comm_node" output="screen"/>
+  <node name="tb3_2_local_comm_node" pkg="resource_aware_coordination" type="tb3_2_local_comm_node" output="screen"/>
+</launch>

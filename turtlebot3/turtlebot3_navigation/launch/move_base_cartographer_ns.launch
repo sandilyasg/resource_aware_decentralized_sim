@@ -1,0 +1,55 @@
+<launch>
+  <!-- Arguments -->
+  <!-- <param name="/use_sim_time" value="true"/> -->
+  <arg name="model" default="$(env TURTLEBOT3_MODEL)" doc="model type [burger, waffle, waffle_pi]"/>
+  <arg name="cmd_vel_topic" default="/cmd_vel" />
+  <arg name="odom_topic" default="odom" />
+  <arg name="move_forward_only" default="false"/>
+  <arg name="robot_namespace" default="tb3_0"/>
+
+  <!-- <node pkg="tf" type="static_transform_publisher" name="odom_map_broadcaster" args="0 0 0 0 0 0 map tb3_0/base_footprint 100"/> -->
+
+  <!-- move_base -->
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+    <param name="base_local_planner" value="dwa_local_planner/DWAPlannerROS" />
+    <rosparam file="$(find turtlebot3_navigation)/param/costmap_common_params_$(arg model).yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find turtlebot3_navigation)/param/costmap_common_params_$(arg model).yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find turtlebot3_navigation)/param/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find turtlebot3_navigation)/param/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find turtlebot3_navigation)/param/move_base_params.yaml" command="load" />
+    <rosparam file="$(find turtlebot3_navigation)/param/dwa_local_planner_params_$(arg model).yaml" command="load" />
+    
+    <param name="global_costmap/robot_base_frame" value="$(arg robot_namespace)/base_footprint"/>
+    <param name="local_costmap/robot_base_frame" value="$(arg robot_namespace)/base_footprint"/>
+    <param name="local_costmap/global_frame" value="$(arg robot_namespace)/odom"/>
+
+    <remap from="cmd_vel" to="$(arg cmd_vel_topic)"/>  
+    <remap from="odom" to="$(arg odom_topic)"/>
+
+    <param name="local_costmap/scan/topic" value="$(arg robot_namespace)/base_scan"/>
+    <param name="local_costmap/map_topic" value="map"/>
+    <param name="global_costmap/scan/topic" value="$(arg robot_namespace)/base_scan"/>
+    <param name="global_costmap/map_topic" value="map"/>
+    <param name="global_costmap/global_frame" value="map"/>
+
+
+    <param name="footprint_padding" value="0.02" />
+    <param name="controller_frequency" value="10.0" />
+    <param name="controller_patience" value="3.0" />
+
+    <param name="oscillation_timeout" value="30.0" />
+    <param name="oscillation_distance" value="0.5" />
+    <param name="recovery_behavior_enabled" value="false"/>
+    <param name="clearing_rotation_allowed" value="false"/>
+    <param name="planner_frequency" value="1.0"/>
+
+    <!-- VERY IMPORTANT for sending goal poses on robot's local map. Do not modify. -->
+    <!-- <remap from="/map" to="$(arg robot_namespace)/map"/>   -->
+    <remap from="$(arg robot_namespace)/base_footprint" to="base_footprint" />
+    <remap from="/$(arg robot_namespace)/map" to="/map"/>  
+    <!-- <remap from="/map" to="/$(arg robot_namespace)/map"/>   -->
+    <!-- <remap from="base_footprint" to="$(arg robot_namespace)/base_footprint" /> -->
+
+    <param name="DWAPlannerROS/min_vel_x" value="0.0" if="$(arg move_forward_only)" />
+  </node>
+</launch>

@@ -1,0 +1,13 @@
+ <launch>
+<arg name="ns" default="tb3_0"/>
+<arg name="name" default="laser_filter1"/>
+
+<node pkg="multirobot_laserscan_filter" type="scan_to_scan_filter_chain" output="screen" name="$(arg name)" ns="$(arg ns)">
+      <rosparam command="load" file="$(find multirobot_laserscan_filter)/examples/speckle_filter_example.yaml" />
+      <!-- <remap from="odom0" to="$(arg ns)/odom"/> -->
+      <remap from="odom0" to="odom"/>
+      <remap from="odom1" to="/tb3_1/odom"/>
+      <remap from="odom2" to="/tb3_2/odom"/>
+
+</node>
+</launch>

@@ -1,0 +1,16 @@
+scan_filter_chain:
+- type: multirobot_laserscan_filter/LaserArrayFilter
+  name: laser_median_filter
+  params: 
+    range_filter_chain:
+      - name: median_5
+        type: multirobot_laserscan_filter/MultiChannelMedianFilterFloat 
+        params:
+          number_of_observations: 5
+          unused: 10
+    intensity_filter_chain:
+      - name: median_5
+        type: multirobot_laserscan_filter/MultiChannelMedianFilterFloat 
+        params:
+          number_of_observations: 5
+          unused: 10

@@ -1,0 +1,73 @@
+<launch>
+
+<!-- <node pkg="resource_aware_coordination" type="frontier_explore" respawn="false" name="globalmap_fronter_explore" output="screen">
+  <param name="move_base_topic" value="move_base"/>
+  <param name="robot_base_frame" value="tb3_0/base_footprint"/>
+  <param name="robot_base_frame" value="/map"/>
+  <param name="costmap_topic" value="/map"/> 
+  <param name="costmap_updates_topic" value="/map_updates"/>
+  <param name="visualize" value="true"/>
+  <param name="planner_frequency" value="1.0"/>
+  <param name="progress_timeout" value="30.0"/>
+  <param name="potential_scale" value="3.0"/>
+  <param name="orientation_scale" value="0.0"/>
+  <param name="gain_scale" value="1.0"/>
+  <param name="transform_tolerance" value="0.3"/>
+  <param name="min_frontier_size" value="0.75"/>
+</node> -->
+
+<!-- for tb3_0 -->
+<node pkg="resource_aware_coordination" type="frontier_explore" respawn="false" name="tb3_0_explore" output="screen">
+  <param name="move_base_topic" value="tb3_0/move_base"/>
+  <param name="robot_base_frame" value="tb3_0/base_footprint"/>
+  <param name="costmap_topic" value="tb3_0/map"/> 
+  <!-- <param name="costmap_topic" value="/new_tb3_0_map"/>  -->
+  <param name="costmap_updates_topic" value="tb3_0/map_updates"/>
+  <param name="visualize" value="true"/>
+  <param name="planner_frequency" value="1.00"/>
+  <param name="progress_timeout" value="30.0"/>
+  <param name="potential_scale" value="3.0"/>
+  <param name="orientation_scale" value="0.0"/>
+  <param name="gain_scale" value="1.0"/>
+  <param name="transform_tolerance" value="0.3"/>
+  <param name="min_frontier_size" value="1.0"/>
+</node>
+
+<!-- for tb3_1 -->
+<node pkg="resource_aware_coordination" type="frontier_explore" respawn="false" name="tb3_1_explore" output="screen">
+  <param name="robot_base_frame" value="tb3_1/base_footprint"/>
+  <param name="move_base_topic" value="tb3_1/move_base"/>
+  <param name="costmap_topic" value="tb3_1/map"/>
+  <!-- <param name="costmap_topic" value="/new_tb3_1_map"/>  -->
+  <param name="costmap_updates_topic" value="tb3_1/map_updates"/>
+  <param name="visualize" value="true"/>
+  <param name="planner_frequency" value="1.00"/>
+  <param name="progress_timeout" value="30.0"/>
+  <param name="potential_scale" value="3.0"/>
+  <param name="orientation_scale" value="0.0"/>
+  <param name="gain_scale" value="1.0"/>
+  <param name="transform_tolerance" value="0.3"/>
+  <param name="min_frontier_size" value="1.0"/>
+</node>
+
+
+<!-- for tb3_2  -->
+<node pkg="resource_aware_coordination" type="frontier_explore" respawn="false" name="tb3_2_explore" output="screen">
+  <param name="robot_base_frame" value="tb3_2/base_footprint"/>
+  <param name="move_base_topic" value="tb3_2/move_base"/>
+  <param name="costmap_topic" value="tb3_2/map"/>
+  <!-- <param name="costmap_topic" value="/new_tb3_2_map"/>  -->
+  <param name="costmap_updates_topic" value="tb3_2/map_updates"/>
+  <param name="visualize" value="true"/>
+  <param name="planner_frequency" value="1.00"/>
+  <param name="progress_timeout" value="30.0"/>
+  <param name="potential_scale" value="3.0"/>
+  <param name="orientation_scale" value="0.0"/>
+  <param name="gain_scale" value="1.0"/>
+  <param name="transform_tolerance" value="0.3"/>
+  <param name="min_frontier_size" value="1.0"/>
+</node> 
+
+</launch>
+
+  <!-- <param name="planner_frequency" value="0.33"/> -->

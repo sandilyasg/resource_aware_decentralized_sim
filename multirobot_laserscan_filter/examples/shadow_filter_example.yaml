@@ -1,0 +1,15 @@
+scan_filter_chain:
+- name: shadows
+  type: multirobot_laserscan_filter/ScanShadowsFilter
+  params:
+    min_angle: 10
+    max_angle: 170
+    neighbors: 20
+    window: 1
+- name: dark_shadows
+  type: multirobot_laserscan_filter/LaserScanIntensityFilter
+  params: 
+    lower_threshold: 100
+    upper_threshold: 10000
+    disp_histogram: 0
+

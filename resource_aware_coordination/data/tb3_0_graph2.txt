@@ -1,0 +1,540 @@
+Edge between pose and landmark: 8 and l0
+Edge between pose and landmark: 9 and l1
+Edge between pose and landmark: 9 and l0
+Edge between pose and landmark: 10 and l1
+Edge between pose and landmark: 10 and l0
+Edge between pose and landmark: 11 and l1
+Edge between pose and landmark: 11 and l0
+Edge between pose and landmark: 12 and l2
+Edge between pose and landmark: 12 and l0
+Edge between pose and landmark: 12 and l1
+Edge between pose and landmark: 13 and l2
+Edge between pose and landmark: 13 and l0
+Edge between pose and landmark: 13 and l1
+Edge between pose and landmark: 14 and l3
+Edge between pose and landmark: 14 and l2
+Edge between pose and landmark: 14 and l0
+Edge between pose and landmark: 14 and l1
+Edge between pose and landmark: 15 and l3
+Edge between pose and landmark: 15 and l2
+Edge between pose and landmark: 15 and l0
+Edge between pose and landmark: 15 and l1
+Edge between pose and landmark: 16 and l4
+Edge between pose and landmark: 16 and l3
+Edge between pose and landmark: 16 and l2
+Edge between pose and landmark: 16 and l0
+Edge between pose and landmark: 16 and l1
+Edge between pose and landmark: 17 and l4
+Edge between pose and landmark: 17 and l3
+Edge between pose and landmark: 17 and l2
+Edge between pose and landmark: 17 and l0
+Edge between pose and landmark: 17 and l1
+Edge between pose and landmark: 18 and l4
+Edge between pose and landmark: 18 and l3
+Edge between pose and landmark: 18 and l2
+Edge between pose and landmark: 18 and l0
+Edge between pose and landmark: 18 and l1
+Edge between pose and landmark: 19 and l5
+Edge between pose and landmark: 19 and l4
+Edge between pose and landmark: 19 and l3
+Edge between pose and landmark: 19 and l2
+Edge between pose and landmark: 19 and l0
+Edge between pose and landmark: 19 and l1
+Edge between pose and landmark: 20 and l5
+Edge between pose and landmark: 20 and l4
+Edge between pose and landmark: 20 and l3
+Edge between pose and landmark: 20 and l2
+Edge between pose and landmark: 20 and l0
+Edge between pose and landmark: 20 and l1
+Edge between pose and landmark: 21 and l5
+Edge between pose and landmark: 21 and l4
+Edge between pose and landmark: 21 and l3
+Edge between pose and landmark: 21 and l2
+Edge between pose and landmark: 21 and l0
+Edge between pose and landmark: 21 and l1
+Edge between pose and landmark: 22 and l5
+Edge between pose and landmark: 22 and l4
+Edge between pose and landmark: 22 and l3
+Edge between pose and landmark: 22 and l2
+Edge between pose and landmark: 22 and l0
+Edge between pose and landmark: 22 and l1
+Edge between pose and landmark: 23 and l5
+Edge between pose and landmark: 23 and l4
+Edge between pose and landmark: 23 and l3
+Edge between pose and landmark: 23 and l2
+Edge between pose and landmark: 23 and l0
+Edge between pose and landmark: 23 and l1
+Edge between pose and landmark: 24 and l5
+Edge between pose and landmark: 24 and l4
+Edge between pose and landmark: 24 and l3
+Edge between pose and landmark: 24 and l2
+Edge between pose and landmark: 24 and l0
+Edge between pose and landmark: 24 and l1
+Edge between pose and landmark: 25 and l5
+Edge between pose and landmark: 25 and l4
+Edge between pose and landmark: 25 and l3
+Edge between pose and landmark: 25 and l2
+Edge between pose and landmark: 25 and l0
+Edge between pose and landmark: 25 and l1
+Edge between pose and landmark: 26 and l5
+Edge between pose and landmark: 26 and l4
+Edge between pose and landmark: 26 and l3
+Edge between pose and landmark: 26 and l2
+Edge between pose and landmark: 26 and l0
+Edge between pose and landmark: 26 and l1
+Edge between pose and landmark: 27 and l6
+Edge between pose and landmark: 27 and l1
+Edge between pose and landmark: 27 and l0
+Edge between pose and landmark: 27 and l2
+Edge between pose and landmark: 27 and l3
+Edge between pose and landmark: 27 and l4
+Edge between pose and landmark: 27 and l5
+Edge between pose and landmark: 28 and l6
+Edge between pose and landmark: 28 and l1
+Edge between pose and landmark: 28 and l0
+Edge between pose and landmark: 28 and l2
+Edge between pose and landmark: 28 and l3
+Edge between pose and landmark: 28 and l4
+Edge between pose and landmark: 28 and l5
+Edge between pose and landmark: 29 and l6
+Edge between pose and landmark: 29 and l1
+Edge between pose and landmark: 29 and l0
+Edge between pose and landmark: 29 and l2
+Edge between pose and landmark: 29 and l3
+Edge between pose and landmark: 29 and l4
+Edge between pose and landmark: 29 and l5
+Edge between pose and landmark: 30 and l6
+Edge between pose and landmark: 30 and l1
+Edge between pose and landmark: 30 and l0
+Edge between pose and landmark: 30 and l2
+Edge between pose and landmark: 30 and l3
+Edge between pose and landmark: 30 and l4
+Edge between pose and landmark: 30 and l5
+Edge between pose and landmark: 31 and l6
+Edge between pose and landmark: 31 and l1
+Edge between pose and landmark: 31 and l0
+Edge between pose and landmark: 31 and l2
+Edge between pose and landmark: 31 and l3
+Edge between pose and landmark: 31 and l4
+Edge between pose and landmark: 31 and l5
+Edge between pose and landmark: 32 and l6
+Edge between pose and landmark: 32 and l1
+Edge between pose and landmark: 32 and l0
+Edge between pose and landmark: 32 and l2
+Edge between pose and landmark: 32 and l3
+Edge between pose and landmark: 32 and l4
+Edge between pose and landmark: 32 and l5
+Edge between pose and landmark: 33 and l7
+Edge between pose and landmark: 33 and l6
+Edge between pose and landmark: 33 and l1
+Edge between pose and landmark: 33 and l0
+Edge between pose and landmark: 33 and l2
+Edge between pose and landmark: 33 and l3
+Edge between pose and landmark: 33 and l4
+Edge between pose and landmark: 33 and l5
+Edge between pose and landmark: 34 and l7
+Edge between pose and landmark: 34 and l6
+Edge between pose and landmark: 34 and l1
+Edge between pose and landmark: 34 and l0
+Edge between pose and landmark: 34 and l2
+Edge between pose and landmark: 34 and l3
+Edge between pose and landmark: 34 and l4
+Edge between pose and landmark: 34 and l5
+Edge between pose and landmark: 35 and l7
+Edge between pose and landmark: 35 and l6
+Edge between pose and landmark: 35 and l1
+Edge between pose and landmark: 35 and l0
+Edge between pose and landmark: 35 and l2
+Edge between pose and landmark: 35 and l3
+Edge between pose and landmark: 35 and l4
+Edge between pose and landmark: 35 and l5
+Edge between pose and landmark: 36 and l7
+Edge between pose and landmark: 36 and l6
+Edge between pose and landmark: 36 and l1
+Edge between pose and landmark: 36 and l0
+Edge between pose and landmark: 36 and l2
+Edge between pose and landmark: 36 and l3
+Edge between pose and landmark: 36 and l4
+Edge between pose and landmark: 36 and l5
+Edge between pose and landmark: 37 and l7
+Edge between pose and landmark: 37 and l6
+Edge between pose and landmark: 37 and l1
+Edge between pose and landmark: 37 and l0
+Edge between pose and landmark: 37 and l2
+Edge between pose and landmark: 37 and l3
+Edge between pose and landmark: 37 and l4
+Edge between pose and landmark: 37 and l5
+Edge between pose and landmark: 38 and l7
+Edge between pose and landmark: 38 and l6
+Edge between pose and landmark: 38 and l1
+Edge between pose and landmark: 38 and l0
+Edge between pose and landmark: 38 and l2
+Edge between pose and landmark: 38 and l3
+Edge between pose and landmark: 38 and l4
+Edge between pose and landmark: 38 and l5
+Edge between pose and landmark: 39 and l7
+Edge between pose and landmark: 39 and l6
+Edge between pose and landmark: 39 and l1
+Edge between pose and landmark: 39 and l0
+Edge between pose and landmark: 39 and l2
+Edge between pose and landmark: 39 and l3
+Edge between pose and landmark: 39 and l4
+Edge between pose and landmark: 39 and l5
+Edge between pose and landmark: 40 and l7
+Edge between pose and landmark: 40 and l6
+Edge between pose and landmark: 40 and l1
+Edge between pose and landmark: 40 and l0
+Edge between pose and landmark: 40 and l2
+Edge between pose and landmark: 40 and l3
+Edge between pose and landmark: 40 and l4
+Edge between pose and landmark: 40 and l5
+Edge between pose and landmark: 41 and l7
+Edge between pose and landmark: 41 and l6
+Edge between pose and landmark: 41 and l1
+Edge between pose and landmark: 41 and l0
+Edge between pose and landmark: 41 and l2
+Edge between pose and landmark: 41 and l3
+Edge between pose and landmark: 41 and l4
+Edge between pose and landmark: 41 and l5
+Edge between pose and landmark: 42 and l7
+Edge between pose and landmark: 42 and l6
+Edge between pose and landmark: 42 and l1
+Edge between pose and landmark: 42 and l0
+Edge between pose and landmark: 42 and l2
+Edge between pose and landmark: 42 and l3
+Edge between pose and landmark: 42 and l4
+Edge between pose and landmark: 42 and l5
+Edge between pose and landmark: 43 and l7
+Edge between pose and landmark: 43 and l6
+Edge between pose and landmark: 43 and l1
+Edge between pose and landmark: 43 and l0
+Edge between pose and landmark: 43 and l2
+Edge between pose and landmark: 43 and l3
+Edge between pose and landmark: 43 and l4
+Edge between pose and landmark: 43 and l5
+Edge between pose and landmark: 44 and l7
+Edge between pose and landmark: 44 and l6
+Edge between pose and landmark: 44 and l1
+Edge between pose and landmark: 44 and l0
+Edge between pose and landmark: 44 and l2
+Edge between pose and landmark: 44 and l3
+Edge between pose and landmark: 44 and l4
+Edge between pose and landmark: 44 and l5
+Edge between pose and landmark: 45 and l7
+Edge between pose and landmark: 45 and l6
+Edge between pose and landmark: 45 and l1
+Edge between pose and landmark: 45 and l0
+Edge between pose and landmark: 45 and l2
+Edge between pose and landmark: 45 and l3
+Edge between pose and landmark: 45 and l4
+Edge between pose and landmark: 45 and l5
+Edge between pose and landmark: 46 and l7
+Edge between pose and landmark: 46 and l6
+Edge between pose and landmark: 46 and l1
+Edge between pose and landmark: 46 and l0
+Edge between pose and landmark: 46 and l2
+Edge between pose and landmark: 46 and l3
+Edge between pose and landmark: 46 and l4
+Edge between pose and landmark: 46 and l5
+Edge between pose and landmark: 47 and l7
+Edge between pose and landmark: 47 and l6
+Edge between pose and landmark: 47 and l1
+Edge between pose and landmark: 47 and l0
+Edge between pose and landmark: 47 and l2
+Edge between pose and landmark: 47 and l3
+Edge between pose and landmark: 47 and l4
+Edge between pose and landmark: 47 and l5
+Edge between pose and landmark: 48 and l7
+Edge between pose and landmark: 48 and l6
+Edge between pose and landmark: 48 and l1
+Edge between pose and landmark: 48 and l0
+Edge between pose and landmark: 48 and l2
+Edge between pose and landmark: 48 and l3
+Edge between pose and landmark: 48 and l4
+Edge between pose and landmark: 48 and l5
+Edge between pose and landmark: 49 and l7
+Edge between pose and landmark: 49 and l6
+Edge between pose and landmark: 49 and l1
+Edge between pose and landmark: 49 and l0
+Edge between pose and landmark: 49 and l2
+Edge between pose and landmark: 49 and l3
+Edge between pose and landmark: 49 and l4
+Edge between pose and landmark: 49 and l5
+Edge between pose and landmark: 50 and l7
+Edge between pose and landmark: 50 and l6
+Edge between pose and landmark: 50 and l1
+Edge between pose and landmark: 50 and l0
+Edge between pose and landmark: 50 and l2
+Edge between pose and landmark: 50 and l3
+Edge between pose and landmark: 50 and l4
+Edge between pose and landmark: 50 and l5
+Edge between pose and landmark: 51 and l7
+Edge between pose and landmark: 51 and l6
+Edge between pose and landmark: 51 and l1
+Edge between pose and landmark: 51 and l0
+Edge between pose and landmark: 51 and l2
+Edge between pose and landmark: 51 and l3
+Edge between pose and landmark: 51 and l4
+Edge between pose and landmark: 51 and l5
+Edge between pose and landmark: 52 and l7
+Edge between pose and landmark: 52 and l6
+Edge between pose and landmark: 52 and l1
+Edge between pose and landmark: 52 and l0
+Edge between pose and landmark: 52 and l2
+Edge between pose and landmark: 52 and l3
+Edge between pose and landmark: 52 and l4
+Edge between pose and landmark: 52 and l5
+Edge between pose and landmark: 53 and l7
+Edge between pose and landmark: 53 and l6
+Edge between pose and landmark: 53 and l1
+Edge between pose and landmark: 53 and l0
+Edge between pose and landmark: 53 and l2
+Edge between pose and landmark: 53 and l3
+Edge between pose and landmark: 53 and l4
+Edge between pose and landmark: 53 and l5
+Edge between pose and landmark: 54 and l7
+Edge between pose and landmark: 54 and l6
+Edge between pose and landmark: 54 and l1
+Edge between pose and landmark: 54 and l0
+Edge between pose and landmark: 54 and l2
+Edge between pose and landmark: 54 and l3
+Edge between pose and landmark: 54 and l4
+Edge between pose and landmark: 54 and l5
+Edge between pose and landmark: 55 and l7
+Edge between pose and landmark: 55 and l6
+Edge between pose and landmark: 55 and l1
+Edge between pose and landmark: 55 and l0
+Edge between pose and landmark: 55 and l2
+Edge between pose and landmark: 55 and l3
+Edge between pose and landmark: 55 and l4
+Edge between pose and landmark: 55 and l5
+Edge between pose and landmark: 56 and l7
+Edge between pose and landmark: 56 and l6
+Edge between pose and landmark: 56 and l1
+Edge between pose and landmark: 56 and l0
+Edge between pose and landmark: 56 and l2
+Edge between pose and landmark: 56 and l3
+Edge between pose and landmark: 56 and l4
+Edge between pose and landmark: 56 and l5
+Edge between pose and landmark: 57 and l7
+Edge between pose and landmark: 57 and l6
+Edge between pose and landmark: 57 and l1
+Edge between pose and landmark: 57 and l0
+Edge between pose and landmark: 57 and l2
+Edge between pose and landmark: 57 and l3
+Edge between pose and landmark: 57 and l4
+Edge between pose and landmark: 57 and l5
+Edge between pose and landmark: 58 and l7
+Edge between pose and landmark: 58 and l6
+Edge between pose and landmark: 58 and l1
+Edge between pose and landmark: 58 and l0
+Edge between pose and landmark: 58 and l2
+Edge between pose and landmark: 58 and l3
+Edge between pose and landmark: 58 and l4
+Edge between pose and landmark: 58 and l5
+Edge between pose and landmark: 59 and l7
+Edge between pose and landmark: 59 and l6
+Edge between pose and landmark: 59 and l1
+Edge between pose and landmark: 59 and l0
+Edge between pose and landmark: 59 and l2
+Edge between pose and landmark: 59 and l3
+Edge between pose and landmark: 59 and l4
+Edge between pose and landmark: 59 and l5
+Edge between pose and landmark: 60 and l7
+Edge between pose and landmark: 60 and l6
+Edge between pose and landmark: 60 and l1
+Edge between pose and landmark: 60 and l0
+Edge between pose and landmark: 60 and l2
+Edge between pose and landmark: 60 and l3
+Edge between pose and landmark: 60 and l4
+Edge between pose and landmark: 60 and l5
+Edge between pose and landmark: 61 and l7
+Edge between pose and landmark: 61 and l6
+Edge between pose and landmark: 61 and l1
+Edge between pose and landmark: 61 and l0
+Edge between pose and landmark: 61 and l2
+Edge between pose and landmark: 61 and l3
+Edge between pose and landmark: 61 and l4
+Edge between pose and landmark: 61 and l5
+Edge between pose and landmark: 62 and l7
+Edge between pose and landmark: 62 and l6
+Edge between pose and landmark: 62 and l1
+Edge between pose and landmark: 62 and l0
+Edge between pose and landmark: 62 and l2
+Edge between pose and landmark: 62 and l3
+Edge between pose and landmark: 62 and l4
+Edge between pose and landmark: 62 and l5
+Edge between pose and landmark: 63 and l7
+Edge between pose and landmark: 63 and l6
+Edge between pose and landmark: 63 and l1
+Edge between pose and landmark: 63 and l0
+Edge between pose and landmark: 63 and l2
+Edge between pose and landmark: 63 and l3
+Edge between pose and landmark: 63 and l4
+Edge between pose and landmark: 63 and l5
+Edge between pose and landmark: 64 and l7
+Edge between pose and landmark: 64 and l6
+Edge between pose and landmark: 64 and l1
+Edge between pose and landmark: 64 and l0
+Edge between pose and landmark: 64 and l2
+Edge between pose and landmark: 64 and l3
+Edge between pose and landmark: 64 and l4
+Edge between pose and landmark: 64 and l5
+Edge between pose and landmark: 65 and l7
+Edge between pose and landmark: 65 and l6
+Edge between pose and landmark: 65 and l1
+Edge between pose and landmark: 65 and l0
+Edge between pose and landmark: 65 and l2
+Edge between pose and landmark: 65 and l3
+Edge between pose and landmark: 65 and l4
+Edge between pose and landmark: 65 and l5
+
+
+Value 0: (gtsam::Pose2) (-3.31727e-16, -5.5395e-17, 2.64212e-20)
+
+Value 1: (gtsam::Pose2) (0.0989656, 0.421325, -0.0652945)
+
+Value 2: (gtsam::Pose2) (0.260584, 0.862162, -0.122666)
+
+Value 3: (gtsam::Pose2) (0.00847783, 2.04221, -0.414316)
+
+Value 4: (gtsam::Pose2) (0.130633, 2.36049, -0.439491)
+
+Value 5: (gtsam::Pose2) (0.249402, 2.47841, -0.436153)
+
+Value 6: (gtsam::Pose2) (0.369004, 2.57607, -0.472656)
+
+Value 7: (gtsam::Pose2) (0.214291, 2.46587, -0.631253)
+
+Value 8: (gtsam::Pose2) (0.161123, 2.41341, -0.992195)
+
+Value 9: (gtsam::Pose2) (0.330919, 1.10388, -2.24814)
+
+Value 10: (gtsam::Pose2) (0.20066, 0.755942, -2.65864)
+
+Value 11: (gtsam::Pose2) (0.161892, 0.691827, -2.74743)
+
+Value 12: (gtsam::Pose2) (0.268787, 1.04203, -2.34497)
+
+Value 13: (gtsam::Pose2) (0.182414, 0.741627, -2.68637)
+
+Value 14: (gtsam::Pose2) (0.134742, 0.637267, -2.81667)
+
+Value 15: (gtsam::Pose2) (0.154856, 0.683011, -2.75685)
+
+Value 16: (gtsam::Pose2) (0.169872, 0.705263, -2.71509)
+
+Value 17: (gtsam::Pose2) (0.151418, 0.67443, -2.76734)
+
+Value 18: (gtsam::Pose2) (0.151965, 0.675388, -2.76561)
+
+Value 19: (gtsam::Pose2) (0.107401, 0.625947, -2.87898)
+
+Value 20: (gtsam::Pose2) (0.14947, 0.67179, -2.77211)
+
+Value 21: (gtsam::Pose2) (0.152879, 0.675723, -2.76324)
+
+Value 22: (gtsam::Pose2) (0.152239, 0.674981, -2.76491)
+
+Value 23: (gtsam::Pose2) (0.15222, 0.674965, -2.76496)
+
+Value 24: (gtsam::Pose2) (0.152061, 0.674805, -2.76537)
+
+Value 25: (gtsam::Pose2) (0.160155, 0.684196, -2.74427)
+
+Value 26: (gtsam::Pose2) (0.101312, 0.619461, -2.89488)
+
+Value 27: (gtsam::Pose2) (0.155259, 0.678227, -2.75531)
+
+Value 28: (gtsam::Pose2) (0.17168, 0.695463, -2.7071)
+
+Value 29: (gtsam::Pose2) (0.153042, 0.675821, -2.76255)
+
+Value 30: (gtsam::Pose2) (0.143032, 0.665583, -2.79157)
+
+Value 31: (gtsam::Pose2) (0.151304, 0.674045, -2.76763)
+
+Value 32: (gtsam::Pose2) (0.168161, 0.691624, -2.7178)
+
+Value 33: (gtsam::Pose2) (0.154449, 0.677539, -2.75473)
+
+Value 34: (gtsam::Pose2) (0.150994, 0.673706, -2.7687)
+
+Value 35: (gtsam::Pose2) (0.151851, 0.674646, -2.76518)
+
+Value 36: (gtsam::Pose2) (0.145342, 0.667472, -2.79155)
+
+Value 37: (gtsam::Pose2) (0.149558, 0.672127, -2.77444)
+
+Value 38: (gtsam::Pose2) (0.154577, 0.677699, -2.75363)
+
+Value 39: (gtsam::Pose2) (0.131044, 0.652197, -2.84882)
+
+Value 40: (gtsam::Pose2) (0.155604, 0.678784, -2.75017)
+
+Value 41: (gtsam::Pose2) (0.139859, 0.661642, -2.81336)
+
+Value 42: (gtsam::Pose2) (0.146465, 0.668796, -2.78677)
+
+Value 43: (gtsam::Pose2) (0.151571, 0.674236, -2.76705)
+
+Value 44: (gtsam::Pose2) (0.17042, 0.69573, -2.68869)
+
+Value 45: (gtsam::Pose2) (0.1484, 0.670916, -2.77865)
+
+Value 46: (gtsam::Pose2) (0.168321, 0.693702, -2.69611)
+
+Value 47: (gtsam::Pose2) (0.15184, 0.674654, -2.76519)
+
+Value 48: (gtsam::Pose2) (0.151662, 0.674479, -2.76575)
+
+Value 49: (gtsam::Pose2) (0.152027, 0.674858, -2.7644)
+
+Value 50: (gtsam::Pose2) (0.166624, 0.691507, -2.70432)
+
+Value 51: (gtsam::Pose2) (0.131992, 0.653387, -2.84389)
+
+Value 52: (gtsam::Pose2) (0.144727, 0.666949, -2.79367)
+
+Value 53: (gtsam::Pose2) (0.150083, 0.672717, -2.77238)
+
+Value 54: (gtsam::Pose2) (0.153254, 0.676197, -2.75959)
+
+Value 55: (gtsam::Pose2) (0.150018, 0.672666, -2.7725)
+
+Value 56: (gtsam::Pose2) (0.140215, 0.662017, -2.81171)
+
+Value 57: (gtsam::Pose2) (0.150677, 0.673361, -2.76992)
+
+Value 58: (gtsam::Pose2) (0.14984, 0.672436, -2.77332)
+
+Value 59: (gtsam::Pose2) (0.145768, 0.667962, -2.78976)
+
+Value 60: (gtsam::Pose2) (0.137573, 0.659176, -2.82218)
+
+Value 61: (gtsam::Pose2) (0.151632, 0.674405, -2.76609)
+
+Value 62: (gtsam::Pose2) (0.15202, 0.674836, -2.76451)
+
+Value 63: (gtsam::Pose2) (0.158215, 0.681762, -2.73928)
+
+Value 64: (gtsam::Pose2) (0.160483, 0.684326, -2.72999)
+
+Value 65: (gtsam::Pose2) (0.16797, 0.692898, -2.69892)
+
+Value l0: (gtsam::Point2) (-0.556365, 1.55337)
+
+Value l1: (gtsam::Point2) (-1.00567, 1.02097)
+
+Value l2: (gtsam::Point2) (-1.1743, 0.996666)
+
+Value l3: (gtsam::Point2) (-0.620825, 0.86253)
+
+Value l4: (gtsam::Point2) (-0.175102, 1.61242)
+
+Value l5: (gtsam::Point2) (0.115597, 1.65001)
+
+Value l6: (gtsam::Point2) (0.937001, -1.92448)
+
+Value l7: (gtsam::Point2) (-0.921765, -1.30268)
+

@@ -1,0 +1,67 @@
+<launch>
+  <param name="/use_sim_time" value="true"/>
+
+  <!-- <arg name="first_tb3"  default="tb3_0"/>
+  <arg name="second_tb3" default="tb3_1"/>
+  <arg name="third_tb3"  default="tb3_2"/> -->
+
+  <!-- <node pkg="tf" type="static_transform_publisher" name="odom_map_broadcaster" args="0 0 0 0 0 0 map base_footprint 100"/> -->
+    
+    <!-- Run the map server -->
+  <!-- <node name="map_server" pkg="map_server" type="map_server" args="$(find your_pkg)/map/map.yaml" >
+    <param name="frame_id" value="/map" />
+  </node> -->
+
+    <!-- Launch the move_base node for Turtlebot 3 with custom namespace -->
+  <group ns="tb3_0">
+    <!-- <param name="tf_prefix" value="tb3_0" /> -->
+    <include file="$(find turtlebot3_navigation)/launch/move_base.launch">
+        <arg name="robot_namespace" value="tb3_0"/>
+
+        <param name="global_costmap/robot_base_frame" value="tb3_0/base_footprint"/>
+        <param name="local_costmap/robot_base_frame" value="tb3_0/base_footprint"/>
+        <param name="local_costmap/global_frame" value="tb3_0/odom"/>
+
+        <!-- <arg name="cmd_vel_topic" value="tb3_0/cmd_vel" />
+        <arg name="odom_topic" value="tb3_0/odom" /> -->
+        <arg name="cmd_vel_topic" value="cmd_vel" />
+        <arg name="odom_topic" value="odom" />
+        <arg name="move_forward_only" value="false"/>
+    </include> 
+  </group>
+
+  <group ns="tb3_1">
+    <!-- <param name="tf_prefix" value="tb3_1" /> -->
+    <include file="$(find turtlebot3_navigation)/launch/move_base.launch">
+        <arg name="robot_namespace" value="tb3_1"/>
+
+        <param name="global_costmap/robot_base_frame" value="tb3_1/base_footprint"/>
+        <param name="local_costmap/robot_base_frame" value="tb3_1/base_footprint"/>
+        <param name="local_costmap/global_frame" value="tb3_1/odom"/>
+
+        <!-- <arg name="cmd_vel_topic" value="tb3_1/cmd_vel" />
+        <arg name="odom_topic" value="tb3_1/odom" /> -->
+        <arg name="cmd_vel_topic" value="cmd_vel" />
+        <arg name="odom_topic" value="odom" />
+        <arg name="move_forward_only" value="false"/>
+    </include>
+  </group>
+
+  <group ns="tb3_2">
+    <!-- <param name="tf_prefix" value="tb3_2" /> -->
+    <include file="$(find turtlebot3_navigation)/launch/move_base.launch">
+        <arg name="robot_namespace" value="tb3_2"/>
+
+        <param name="global_costmap/robot_base_frame" value="tb3_2/base_footprint"/>
+        <param name="local_costmap/robot_base_frame" value="tb3_2/base_footprint"/>
+        <param name="local_costmap/global_frame" value="tb3_2/odom"/>
+
+        <!-- <arg name="cmd_vel_topic" value="tb3_2/cmd_vel" />
+        <arg name="odom_topic" value="tb3_2/odom" /> -->
+        <arg name="cmd_vel_topic" value="cmd_vel" />
+        <arg name="odom_topic" value="odom" />
+        <arg name="move_forward_only" value="false"/>
+    </include>
+  </group>
+
+</launch>

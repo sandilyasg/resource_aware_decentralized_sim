@@ -1,0 +1,34 @@
+<launch>
+  <arg name="open_rviz" default="true"/>
+  <param name="/use_sim_time" value="true"/>
+
+  <!-- Launch the gmapping node for Turtlebot 3 with custom namespace -->
+  <!-- <group ns="tb3_0"> -->
+
+    <include file="$(find turtlebot3_slam)/launch/turtlebot3_karto.launch">
+      <arg name="ns" value="tb3_0"/>
+      <remap from="/$(arg ns)/scan" to="/$(arg ns)/scan_filtered"/>
+    </include>
+
+  <!-- <group ns="tb3_1"> -->
+    <include file="$(find turtlebot3_slam)/launch/turtlebot3_karto.launch">
+      <arg name="ns" value="tb3_1"/>
+      <remap from="/$(arg ns)/scan" to="/$(arg ns)/scan_filtered"/>
+    </include>
+
+  <!-- <group ns="tb3_2"> -->
+    <include file="$(find turtlebot3_slam)/launch/turtlebot3_karto.launch">
+      <arg name="ns" value="tb3_2"/>
+      <remap from="/$(arg ns)/scan" to="/$(arg ns)/scan_filtered"/>
+    </include>
+
+  <include file="$(find turtlebot3_gazebo)/launch/multi_map_merge_karto.launch"></include>
+
+  <group if="$(arg open_rviz)"> 
+    <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find turtlebot3_gazebo)/rviz/multi_turtlebot3_slam_withpathspose.rviz"/>
+  </group>
+
+</launch>
+
+<!-- args="-d $(find turtlebot3_gazebo)/rviz/multi_turtlebot3_slam_MB.rviz"/> -->

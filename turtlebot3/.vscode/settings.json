@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/sgari/iral_research/multi_rag_gc/devel_isolated/turtlebot3_teleop/lib/python2.7/dist-packages",
+        "/home/sgari/iral_research/multi_rag_gc/install_isolated/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/sgari/iral_research/multi_rag_gc/devel_isolated/turtlebot3_teleop/lib/python2.7/dist-packages",
+        "/home/sgari/iral_research/multi_rag_gc/install_isolated/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ]
+}

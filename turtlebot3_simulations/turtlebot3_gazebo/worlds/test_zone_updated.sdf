@@ -1,0 +1,242 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://test_zone</uri>
+    </include>
+
+    <!-- <include>
+      <uri>model://cafe_table</uri>
+      <name>table1</name>
+      <pose>4.05 3 0 0 0 1.57</pose>
+    </include> -->
+
+    <!-- <include>
+      <uri>model://cafe_table</uri>
+      <name>table2</name>
+      <pose>-3 5 0 0 0 1.57</pose>
+    </include> -->
+
+    <!-- <include>
+      <uri>model://demo_cube</uri>
+      <pose>3.8 3.15 0.83 0 0 0</pose>
+    </include> -->
+
+    <!-- plant on table -->
+    <include>
+      <uri>model://side_table_1</uri>
+      <name>st1</name>
+      <pose>5.5 8.2 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://pot_flower</uri>
+      <name>pot1</name>
+      <pose>5.5 8.2 0.6 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://plant_2</uri>
+      <name>plant1</name>
+      <pose>5.5 8.2 0.7 0 0 0</pose>
+    </include>
+
+    <!-- plant in hallway1 -->
+    <include>
+      <uri>model://pot_flower</uri>
+      <name>pot2</name>
+      <pose>-1 8.6 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://plant_2</uri>
+      <name>plant2</name>
+      <pose>-1 8.6 0.1 0 0 0</pose>
+    </include>
+
+     <!-- plant in hallway2 -->
+    <include>
+      <uri>model://pot_flower</uri>
+      <name>pot3</name>
+      <pose>-6 8.6 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://plant_1</uri>
+      <name>plant3</name>
+      <pose>-6 8.6 0.1 0 0 0</pose>
+    </include>
+
+    <!-- plant in hallway3 -->
+    <include>
+      <uri>model://pot_flower</uri>
+      <name>pot4</name>
+      <pose>-7.8 6.5 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://plant_1</uri>
+      <name>plant4</name>
+      <pose>-7.8 6.5 0.1 0 0 0</pose>
+    </include>
+
+
+    <include>
+      <uri>model://aws_robomaker_retail_BookshelfC_01</uri>
+      <pose>5 -6.2 0 0 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri>model://aws_robomaker_retail_ChairB_01</uri>
+      <name>chair3</name>
+      <pose>5 -5 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://aws_robomaker_retail_BookshelfA_01</uri>
+      <pose>-3 -4 0 0 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri>model://aws_robomaker_retail_ChairB_01</uri>
+      <name>chair4</name>
+      <pose>-3 -3 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://table_dining</uri>
+      <pose>5 3 0 0 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri>model://chair_2</uri>
+      <name>chair1</name>
+      <pose>5 2 0 0 0 3.14</pose>
+    </include>
+
+    <include>
+      <uri>model://chair_2</uri>
+      <name>chair2</name>
+      <pose>5 4 0 0 0 0</pose>
+    </include>
+
+
+    <!-- vases in top corridor -->
+    <include>
+      <uri>model://vase_large_2</uri>
+      <name>vase1</name>
+      <pose>-7.8 2 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://vase_large_3</uri>
+      <name>vase2</name>
+      <pose>-6.8 -4 0 0 0 0</pose>
+    </include>
+
+    <!-- plant and vase on left corridor -->
+    <include>
+      <uri>model://pot_flower</uri>
+      <name>pot5</name>
+      <pose>-6 -8 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://plant_1</uri>
+      <name>plant5</name>
+      <pose>-6 -8 0.1 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://vase_large_2</uri>
+      <name>vase3</name>
+      <pose>-1 -6.9 0 0 0 0</pose>
+    </include>
+
+    <!-- small coffee table in right room -->
+    <include>
+      <uri>model://coffee_table_1</uri>
+      <name>coffee1</name>
+      <pose>-3 4 0 0 0 0</pose>
+    </include>
+
+    <!-- sofa in main room -->
+    <include>
+      <uri>model://sofa_set_3</uri>
+      <name>sofa1</name>
+      <pose>6.7 -3 0 0 0 -1.57</pose>
+    </include>
+
+    <!-- plant with table at middle corridor -->
+    <include>
+      <uri>model://side_table_1</uri>
+      <name>st2</name>
+      <pose>-4 0.6 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://pot_flower</uri>
+      <name>pot6</name>
+      <pose>-4 0.6 0.6 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://plant_2</uri>
+      <name>plant6</name>
+      <pose>-4 0.6 0.7 0 0 0</pose>
+    </include>
+
+<!-- Models from paste2.txt -->
+
+    <!-- <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    
+    <include>
+      <uri>model://test_zone</uri>
+    </include> -->
+    
+    <include>
+      <uri>model://side_table_1</uri>
+      <name>st1_clone</name>
+      <pose>6.91126 1.69812 0 0 0 0</pose> 
+    </include>
+    
+    <include>
+      <uri>model://pot_flower</uri>
+      <name>pot1_clone</name>
+      <pose>6.83324 1.72701 0.6 0 0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://plant_1</uri>
+      <name>plant1_clone</name>
+      <pose>6.83324 1.72701 0.6 0 0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://aws_robomaker_retail_BookshelfA_01</uri>
+      <name>bookshelf1_clone</name>
+      <!-- <pose>6.1135 0.518063 0 0 0 1.57</pose> -->
+      <pose>6.7135 0.518063 0 0 0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://vase_large_2</uri>
+      <name>vase3_clone</name>
+      <pose>6.8621 5.97687 0 0 0 0</pose>
+    </include>
+
+  </world>
+</sdf>

@@ -1,0 +1,13 @@
+<launch>
+  <test test-name="test_speckle_filter" pkg="multirobot_laserscan_filter" type="test_speckle_filter" />
+
+  <node pkg="multirobot_laserscan_filter" type="scan_to_scan_filter_chain" output="screen" name="laser_filter_distance">
+        <remap from="scan_filtered" to="scan_filtered_distance" />
+        <rosparam command="load" file="$(find multirobot_laserscan_filter)/test/test_speckle_filter_distance.yaml" />
+  </node>
+
+  <node pkg="multirobot_laserscan_filter" type="scan_to_scan_filter_chain" output="screen" name="laser_filter_euclidean">
+        <remap from="scan_filtered" to="scan_filtered_euclidean" />
+        <rosparam command="load" file="$(find multirobot_laserscan_filter)/test/test_speckle_filter_euclidean.yaml" />
+  </node>
+</launch>

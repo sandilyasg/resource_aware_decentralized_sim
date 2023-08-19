@@ -1,0 +1,13 @@
+ <launch>
+<arg name="ns" default="tb3_0"/>
+<arg name="name" default="laser_filter1"/>
+<arg name="other_robot1_odom" default="/tb3_1/odom"/>
+<arg name="other_robot2_odom" default="/tb3_2/odom"/>
+
+
+<node pkg="multirobot_laserscan_filter" type="multirobot_position_filter" output="screen" name="$(arg name)" ns="$(arg ns)">
+      <remap from="odom0" to="odom"/>
+      <remap from="odom1" to="$(arg other_robot1_odom)"/>
+      <remap from="odom2" to="$(arg other_robot2_odom)"/>
+</node>
+</launch>

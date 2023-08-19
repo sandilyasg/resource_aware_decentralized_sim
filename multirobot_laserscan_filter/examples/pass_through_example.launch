@@ -1,0 +1,6 @@
+<launch>
+<node pkg="multirobot_laserscan_filter" type="scan_to_scan_filter_chain" output="screen" name="laser_filter">
+      <remap from="scan" to="base_scan" />
+      <param name="filters" textfile="$(find multirobot_laserscan_filter)/examples/pass_through_example.xml" />
+</node>
+</launch>

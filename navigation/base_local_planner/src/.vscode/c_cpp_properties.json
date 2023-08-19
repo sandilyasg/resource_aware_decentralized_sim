@@ -1,0 +1,53 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/sgari/iral_research/multi_new/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/sgari/iral_research/multi_new/src/navigation/amcl/include/**",
+        "/home/sgari/iral_research/multi_new/src/navigation/base_local_planner/include/**",
+        "/home/sgari/iral_research/multi_new/src/navigation/carrot_planner/include/**",
+        "/home/sgari/iral_research/multi_new/src/navigation/clear_costmap_recovery/include/**",
+        "/home/sgari/iral_research/multi_new/src/navigation/costmap_2d/include/**",
+        "/home/sgari/iral_research/multi_new/src/costmap_converter/include/**",
+        "/home/sgari/iral_research/multi_new/src/navigation/dwa_local_planner/include/**",
+        "/home/sgari/iral_research/multi_new/src/m-explore/explore/include/**",
+        "/home/sgari/iral_research/multi_new/src/navigation/global_planner/include/**",
+        "/home/sgari/iral_research/multi_new/src/multirobot_laserscan_filter/include/**",
+        "/home/sgari/iral_research/multi_new/src/navigation/map_server/include/**",
+        "/home/sgari/iral_research/multi_new/src/move_base_flex/mbf_abstract_core/include/**",
+        "/home/sgari/iral_research/multi_new/src/move_base_flex/mbf_abstract_nav/include/**",
+        "/home/sgari/iral_research/multi_new/src/move_base_flex/mbf_costmap_core/include/**",
+        "/home/sgari/iral_research/multi_new/src/move_base_flex/mbf_costmap_nav/include/**",
+        "/home/sgari/iral_research/multi_new/src/move_base_flex/mbf_simple_nav/include/**",
+        "/home/sgari/iral_research/multi_new/src/move_base_flex/mbf_utility/include/**",
+        "/home/sgari/iral_research/multi_new/src/navigation/move_base/include/**",
+        "/home/sgari/iral_research/multi_new/src/navigation/move_slow_and_clear/include/**",
+        "/home/sgari/iral_research/multi_new/src/m-explore/map_merge/include/**",
+        "/home/sgari/iral_research/multi_new/src/navigation/nav_core/include/**",
+        "/home/sgari/iral_research/multi_new/src/navigation/navfn/include/**",
+        "/home/sgari/iral_research/multi_new/src/open_karto/include/**",
+        "/home/sgari/iral_research/multi_new/src/openslam_gmapping/include/**",
+        "/home/sgari/iral_research/multi_new/src/navigation/rotate_recovery/include/**",
+        "/home/sgari/iral_research/multi_new/src/slam_toolbox/slam_toolbox/include/**",
+        "/home/sgari/iral_research/multi_new/src/sparse_bundle_adjustment/include/**",
+        "/home/sgari/iral_research/multi_new/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/sgari/iral_research/multi_new/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/sgari/iral_research/multi_new/src/resource_aware_coordination/include/**",
+        "/home/sgari/iral_research/multi_new/src/turtlebot3/turtlebot3_slam/include/**",
+        "/home/sgari/iral_research/multi_new/src/navigation/voxel_grid/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
